@@ -1,0 +1,33 @@
+:root {
+  --general-color: #CB7C5A;
+  --accent-color: #C19D6D;
+  --white-color: #fff;
+  --white100: 255, 255, 255;
+
+  --black: #000000;
+  --back100: #111111;
+  --black200: #141217;
+  --black300: #181818;
+  --black500: #282828;
+
+  --black-opasity8: #181818cc;
+
+  --black-crow-font: "Black-Crow", sans-serif;
+
+  --btn-border-radius: 50%;
+
+}
+
+body {
+  background-image: url('./assets/bacdrop_img.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed; 
+}
+.container {
+  width: 90%;
+}
+a {
+text-decoration: none;
+color: rgba(var(--white100), 0.6);
+}

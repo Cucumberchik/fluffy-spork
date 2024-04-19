@@ -1,0 +1,8 @@
+@import "text";
+
+h2{
+    @include HeadContant;
+}
+p{
+    @include Contant;
+}

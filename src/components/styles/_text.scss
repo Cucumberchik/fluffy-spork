@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Black-Crow";
+    src: url('./fonts/Blackcrow.woff2') format('woff2');
+    display: swap;
+    font-style: normal;
+}
+@mixin SideTitle{
+    font: 900 70px / 106% var(--font4);
+    color: var(--white-color);
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+@mixin HeadContant {
+    font: 400 32px / 112% var(--black-crow-font);
+    color: var(--white-color);
+}
+@mixin Contant {
+    font: 200 18px / 144%   var(--black-crow-font);
+    color: rgba(var(--white100), 0.8);
+}
+
+@mixin ButtonNoneBackground {
+    border: 1.50px solid rgba(var(--white100), 0.6);
+}
