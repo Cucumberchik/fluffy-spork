@@ -4,6 +4,18 @@
     display: swap;
     font-style: normal;
 }
+@font-face {
+    font-family: "Gotham-Pro";
+    src: url('./fonts/GothamPro.woff2') format('woff2');
+    display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bauhaus";
+    src: url('./fonts/Bauhaus.woff2') format('woff2');
+    display: swap;
+    font-style: normal;
+}
 @mixin SideTitle{
     font: 900 70px / 106% var(--font4);
     color: var(--white-color);
@@ -21,4 +33,6 @@
 
 @mixin ButtonNoneBackground {
     border: 1.50px solid rgba(var(--white100), 0.6);
+    background: none;
+    border-radius: var(--btn-border-radius);
 }

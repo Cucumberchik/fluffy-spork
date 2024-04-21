@@ -13,16 +13,20 @@
   --black-opasity8: #181818cc;
 
   --black-crow-font: "Black-Crow", sans-serif;
+  --gotham-pro-font: "Gotham-Pro", sans-serif;
+  --bauhaus-font: "Bauhaus", sans-serif;
 
-  --btn-border-radius: 50%;
+  --btn-border-radius: 50vw;
 
 }
 
-body {
+html {
   background-image: url('./assets/bacdrop_img.png');
   background-repeat: no-repeat; 
   background-size: cover; 
   background-attachment: fixed; 
+  margin: 0;
+  padding: 0;
 }
 .container {
   width: 90%;
